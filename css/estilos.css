@@ -1,0 +1,146 @@
+body {
+  height: 100vh;
+  background-color: #0d192b;
+  font-family: "Outfit";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+h1:hover, .credit:hover {
+  color: #00fff7;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+div.costs {
+  color: #00fff7;
+  font-weight: 600;
+}
+
+div.costs, div.days_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.credit {
+  color: white;
+}
+
+.main_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 340px;
+  color: #8bacda;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 15px;
+  background-color: #14253d;
+}
+
+.card_image {
+  background: url(/images/image-equilibrium.jpg);
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-radius: 10px;
+}
+
+.card_image:hover .overlay {
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.view_card {
+  position: relative;
+  top: 45%;
+}
+
+.overlay {
+  background: rgba(0, 255, 247, 0.459);
+  text-align: center;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.container_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0 20px 0;
+  width: 100%;
+}
+
+.container_info span {
+  padding-left: 8px;
+}
+
+.avatar_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 0.2px solid #8bacda;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.image_avatar {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border: solid 2px white;
+  border-radius: 50%;
+  width: 100%;
+  max-width: 10%;
+  margin-right: 15px;
+}
+/*# sourceMappingURL=estilos.css.map */
